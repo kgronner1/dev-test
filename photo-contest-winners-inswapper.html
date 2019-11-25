@@ -1,0 +1,1259 @@
+<link href="/css/animate.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/landfx-2018.css">
+<link rel="stylesheet" type="text/css" href="/css/products-2018.css">
+<style type="text/css">
+  .cadplan-fall {background: url(/images/elements/photo-contest-2019/cadlayout-falling.jpg) no-repeat;background-size:auto;background-repeat:repeat;}
+  .cadplan-v3 {background: url(/images/elements/photo-contest-2019/winners/v3-private-plan-1200.jpg) no-repeat;background-size:auto;background-repeat:repeat;}
+
+.winners-size {width:100%;max-width:1400px;margin-left:auto;margin-right:auto;display:block;position:relative;margin-top:30px;}
+.owl-carousel {position:static !important;}
+.owl-nav.disabled {display:none;} 
+.nc-overlay-toggle {cursor:pointer !important;}
+.votable {background-color:#fff !important;}
+/*.notvotable {background-color:#f0f0f0 !important;}*/
+.owl-height {min-height:583px !important;}
+@media (max-width:1250px){.owl-height {min-height:340px!important;}}
+.modal-content {background:rgba(255, 255, 255, 0.87);border:14px solid #333;}
+.space-size-mag {font-size:20px !important;top:15px;left:-100px;}
+@media (max-width:1250px){.space-size-mag {left:0px;} }
+/*@media (max-width:550px){img.thumbnail.img-responsive{padding-left:0px !important;padding-right:0px !important;}}*/
+@media (min-width:1400px){.p15left {padding-left:15px;}}
+img.thumbnail.img-responsive {padding:20px;background-color:transparent;}
+.top-buffer {height: auto !important;}
+.nc-panel.nc-panel-box {padding-bottom:0px !important;overflow:hidden;}
+.item.col-md-4.shuffle-item.filtered {margin-bottom:1px;overflow:hidden;}
+.title-participant {text-align:left;left:20px;position:absolute;bottom:0;}
+.title-participant-height {min-height:75px;position:relative;}
+/*.title-participant {position:absolute;left:10px;z-index:98;color:#fff;text-align:left;}*/
+/*.text-left.pull-left.nc-margin-small-top {position: absolute;bottom: 30px;left: 0px;z-index:990;}*/
+.item.col-md-4.shuffle-item.filtered {padding-left: 0px;padding-right: 0px;}
+.thumbnail {border:none;border-radius:0;}
+  .nc-panel-box {padding-top:0px !important;padding-left:0px !important;padding-right:0px !important;}
+  .nc-overlay-toggle {height:auto !important;}
+  /*.nc-overlay {height:auto !important;}*/
+/*  .nc-vote-button {margin-left:10px;}
+  .glyphicon-ok-circle {color:green;}*/
+.nc-margin-small-top {margin-left:10px;}
+/*.nc-vote-button {border:2px solid #c2c2c2 !important;}*/
+.nc-overlay-area {background:transparent !important;}
+.nc-overlay-area-content {display:none !important;cursor:default !important;}
+/*.nc-overlay {cursor:default !important;}*/
+.fadeIn {animation-duration: 2.5s !important}
+
+  #modalvoteplant .modal-open {position:fixed;}
+  .mfp-wrap.mfp-zoom-in.mfp-ready.mfp-image-loaded {z-index: 1051;}
+.owl-prev {
+    width: 25px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    display: block !important;
+    border:0px solid black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.owl-next {
+    width: 25px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: 0px;
+    display: block !important;
+    border:0px solid black;
+    font-size: 50px;
+    cursor: pointer;
+}
+.owl-prev i, .owl-next i {color: #333;}
+.owl-dots {
+    display: inline-block;
+
+}
+.owl-dots span {
+    background: none repeat scroll 0 0 #869791;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+.owl-dot.active span {opacity: 1 !important;}
+.owl-dots {
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+}
+
+.owl-dots, .owl-controls .owl-buttons div {
+    cursor: pointer;
+    top:10px;
+    position:relative;
+}
+.owl-dot {display:inline-block;}
+html {overflow-x:visible !important;}
+
+@media screen and (min-width: 600px){
+#k2Container {max-width:1600px !important;}}
+.itemBody {padding:0px !important;}
+em {font-size:14px !important;}
+.boxxy {
+    -webkit-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    /* border: 20px solid #333; */
+    background: rgba(255, 255, 255, 0.89);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.insetdark {-webkit-box-shadow: inset -1px 7px 24px -5px rgba(0,0,0,0.5);
+-moz-box-shadow: inset -1px 7px 24px -5px rgba(0,0,0,0.5);
+box-shadow: inset -1px 7px 24px -5px rgba(0,0,0,0.5);}
+h2 {text-align:center;}
+.softsha {
+    -webkit-box-shadow: -7px 7px 11px -6px rgba(0,0,0,0.34);
+    -moz-box-shadow: -7px 7px 11px -6px rgba(0,0,0,0.34);
+    box-shadow: -7px 7px 11px -6px rgba(0,0,0,0.34);
+}
+.goom {
+    background:  url(/images/elements/photo-contest-2018/winners/1stplace.jpg);
+    margin:5px;
+    background-size: cover;
+    background-position:center center;
+    min-height:70vh;
+  /*justify-content: center;*/
+}
+.trianglebg {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.37), rgb(242, 242, 242) 100%), url(images/elements/photo-contest-2018/trianglecolor.png);
+    background-size: cover;
+}
+.trianglebginv {
+/*    background: linear-gradient(to bottom, rgb(242, 242, 242), rgba(255, 255, 255, 0.37) 100%), url(images/elements/photo-contest-2018/trianglecolor.png);*/
+    background-size: cover;
+/*    background-color: #f2f2f1;*/
+    margin: 5px;
+}
+.trianglebgmob {
+    background: linear-gradient(to bottom, rgb(242, 242, 242), rgba(255, 255, 255, 0.37) 100%), url(images/elements/photo-contest-2018/trianglecolor.png);
+    background-size: cover;
+}
+.secondprize {max-width:600px;margin-left:auto;margin-right:auto;color:white;text-align:left;}
+.droneimage, .firstprize {visibility:hidden; color:white;text-align:left;}
+  .goom:hover .droneimage, .goom:hover .firstprize {visibility:visible !important;}
+.cameraimage, .secondprize {visibility:hidden;}
+.shear:hover .shear.credit {visibility:hidden;}
+.goom:hover .goom.credit {visibility:hidden;}
+.shear:hover .cameraimage, .shear:hover .secondprize {visibility:visible !important;}
+.ipadimage, .thirdprize {visibility:hidden; color:white;text-align:left;} 
+.cadence:hover .ipadimage, .cadence:hover .thirdprize {visibility:visible !important;}
+.cadence:hover .cadence.credit {visibility:hidden;}
+.goom:hover {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0) 100%),  url(/images/elements/photo-contest-2018/winners/1stplace.jpg);  background-size: cover;
+    background-position:center center;
+    min-height:70vh;}
+    .bluebut {border: 1px solid #306072!important;color: #306072;} 
+    .bluebut:hover {border: 1px solid #306072!important; color:#fff!important; background:#306072;}
+.sticky {position: sticky;
+    top: 30px;}
+    .shear {background:  url(/images/elements/photo-contest-2018/winners/2ndplace.jpg);min-height:650px;margin:5px;    background-size: cover;
+    background-position:center center;    min-height:70vh;
+  /*justify-content: center;*/
+}
+.shear:hover {background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0) 100%),  url(/images/elements/photo-contest-2018/winners/2ndplace.jpg);min-height:650px;margin:5px;    background-size: cover;    min-height:70vh;
+    background-position:center center;}
+    .cadence {background:  url(/images/elements/photo-contest-2018/winners/3rdplace.jpg);min-height:650px;margin:5px;    background-size: cover;
+    background-position:center center;    min-height:70vh;
+  /*justify-content: center;*/
+}
+.cadence:hover {background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 70%, rgb(0, 0, 0) 100%),  url(/images/elements/photo-contest-2018/winners/3rdplace.jpg);min-height:650px;margin:5px;    background-size: cover;
+    background-position:center center;    min-height:70vh;}
+    .credit {padding:5px;color:#fff; float:right;}
+    .svgplace {margin:0px; max-width:110px;position: absolute; top: -40px;right:-40px;z-index: 2}
+    .prizeplace {margin-top:;}
+    .positionprize {position:absolute;bottom:0;padding:20px;max-width:400px;}
+    .prizeimageplace {margin-left:auto;margin-right:auto;}
+    .nomargcredits {margin:0px !important;bottom:0px;right: 5px;position:absolute;padding:10px;}
+    .centerish {max-width:1000px;margin-left:auto;margin-right:auto;}
+    .centere {max-width:1600px;margin-left:auto;margin-right:auto;}
+
+.floatlense {max-width:600px;position:absolute;z-index: 1;
+    top: -10px;}
+.floatcamera {max-width: 500px;
+    left: 1200px;
+    position: absolute;
+    z-index: 1;
+    top: 130px;}
+      @media screen and (max-width: 1690px) {
+        .floatcamera {display:none;}
+      }
+.goldcup {
+    /*background: url(/images/elements/photo-contest-2018/icons/champ-cup.svg) fixed;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 500px;*/
+    /*background-position: 85% 20%;*/
+    background-color:#4b4b4b;
+}
+@media (max-width: 992px) {
+  .hidethehorror {display:none;}  
+  .showtheshow {display:block;}
+}
+@media (min-width: 993px) {
+  .hidethehorror {display:block;}  
+  .showtheshow {display:none;}
+}
+.mobpadto {padding-top:50px;}
+.mobimg {max-width:100% !important;margin-left:auto;margin-right:auto;margin-top:20px;}
+.mobhex {max-width:120px !important;}
+.itemFullText {margin-bottom:0px !important;}
+.shadowimg { -webkit-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);}
+    .imgwin {max-width:100%;}
+
+.trianglebg {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.37), rgb(211, 201, 206) 100%), url(images/elements/photo-contest-2018/trianglecolor2.png);
+    background-size: cover;
+}
+.flexxyplace {display:flex;justify-content:space-between;}
+.svgplaceflex {max-width:200px;height:auto !important;}
+
+
+@media screen and (max-width: 768px) {
+  .flipbuts {display:none;}
+  #learnirrig, #learnplant, #learndetails, #learnfxcad {display:block !important;}
+     .svgplace {max-width:80px !important;right:-10px;top:-30px;}
+     .winners-size img {display:block;max-width:100% !important;}
+     .pbox50 img {max-width:100% !important;}
+     .p100 {padding:5px !important;}
+}
+
+@media screen and (min-width: 768px) {
+  .ptoplg {padding-top:40px !important;}     
+}
+</style>
+
+  <style type="text/css">
+
+          /* K2 - Magnific Popup Overrides */
+          .mfp-iframe-holder {padding:10px;}
+          .mfp-iframe-holder .mfp-content {max-width:100%;width:100%;height:100%;}
+          .mfp-iframe-scaler iframe {background:#fff;padding:10px;box-sizing:border-box;box-shadow:none;}
+          
+  </style>
+<div id="trigger"></div>
+<div class="row lfx" style="overflow:hidden;">
+  <div  class="trianglebg pudgec softsha p100 ">
+  <div class="centerish boxxy" style="position:relative;z-index:11">
+     <div class="" style="max-width:700px;margin-left:auto;margin-right:auto;overflow:hidden;">
+    <h1 style="text-align:center">The 2019 Land F/X Photo Contest&nbsp;Winners!</h1>
+    <h2 style="text-align:left">Each year, we’re beside ourselves anticipating the slew of top-notch site design images ushered in by our  contest. Our picks are in, and we’re ready to share them!</h2>
+  </div>
+        <div class="" style="max-width:700px;margin-left:auto;margin-right:auto;overflow:hidden;margin-top:50px;margin-bottom:50px;">        
+                      <!--[NOLAZY]-->                      
+                      <a class="btn pillsblue" onclick="peetShow()" href="#first"><img src="/images/elements/photo-contest-2018/yellowhex-first-01.svg" style="width:21px;height:21px;">&nbsp;<span>1st place</span></a>
+                      <a class="btn pillsblue" onclick="yeetShow()" href="#second"><img src="/images/elements/photo-contest-2018/bluehex-second-01.svg" style="width:21px;height:21px;">&nbsp;<span>2nd place</span></a>
+                      <a class="btn pillsblue" onclick="deetShow()" href="#third"><img src="/images/elements/photo-contest-2018/greenhex-third-01.svg" style="width:21px;height:21px;">&nbsp;<span>3rd place</span></a>
+                      <a class="btn pillsblue" onclick="feetShow()" href="#peopleschoice"><img src="/images/elements/products/all-license.png" style="width:21px;height:21px;">&nbsp;<span>People's Choice</span></a>
+
+                    <a class="btn pillsblue" href="#planting"><img src="/images/icons/solid-blue-small/planting-symbols.svg" style="width:21px;height:21px;">&nbsp;<span>Planting</span></a>
+                    <a class="btn pillsblue" href="#irrig"><img src="/images/icons/solid-blue-small/irrigation.svg" style="width:21px;height:21px;">&nbsp;<span>Irrigation</span></a>
+                    <a class="btn pillsblue" href="#hard"><img src="/images/icons/solid-blue/site.svg" style="width:21px;height:21px;">&nbsp;<span>Hardscape &amp; Details</span></a>
+                    <a class="btn pillsblue" href="#3D"><img src="/images/icons/solid-blue-small/sketchup.svg" style="width:21px;height:21px;">&nbsp;<span>3D</span></a>
+                    <a class="btn pillsblue" href="#aerial"><img src="/images/icons/solid-blue/details.svg" style="width:21px;height:21px;">&nbsp;<span>Aerial</span></a>
+                    <a class="btn pillsblue" href="#before"><img src="/images/icons/solid-blue-small/cal.svg" style="width:21px;height:21px;">&nbsp;<span>Before &amp; After</span></a>
+
+                    <!--[ENDNOLAZY]-->
+        </div>
+
+
+  </div>
+</div>
+</div>
+
+
+
+<div class="row lfx">
+  
+  <div class="col-sm-12 padno" >
+         <div  style="max-width:600px;margin-left:auto;margin-right:auto;padding-top:50px;" class="flipbuts">
+            <div class="col-sm-3"><center><a onclick="peetShow()"><img class="bubbleicon hoverbub activebub" id="bubimage1" name="bubimage1" src="/images/elements/photo-contest-2018/yellowhex-first-01.svg"></a></center></div>
+          <div class="col-sm-3"><center><a onclick="yeetShow()"><img class="bubbleicon hoverbub" id="bubimage3" name="bubimage3" src="/images/elements/photo-contest-2018/bluehex-second-01.svg"></a></center></div>          
+          <div class="col-sm-3"><center><a onclick="deetShow()"><img class="bubbleicon hoverbub" id="bubimage2" name="bubimage2" src="/images/elements/photo-contest-2018/greenhex-third-01.svg"></a></center></div>
+          <div class="col-sm-3"><center><a onclick="feetShow()"><img style="max-width:120px;" class="bubbleicon hoverbub" id="bubimage4" name="bubimage3" src="/images/elements/photo-contest-2018/people-choice.png"></a></center></div>
+          </div>
+  </div>
+
+        <div class="col-sm-12 lfx" id="learnplant" style="overflow:hidden !important;z-index:2;padding:0px;">
+            <div class="col-sm-12 padno" id="first">
+              <div  class="cadplan-fall pudgec softsha p100 ptoplg">
+                <div class="animbigVid animated" style="">
+                  <div class="winners-size">            
+                    <img src="/images/elements/photo-contest-2019/winners/1917Edinburgh44of53-1800.jpg" class=" shadowimg imgwin">
+                  </div>
+                </div>
+              <div class="animbigVid animated" style="animation-delay: 0.5s"> 
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:70px;position:relative;">
+                  <img src="/images/elements/photo-contest-2018/yellowhex-first-01.svg" class="svgplace">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Falling Waters Landscape</span><br>
+                  <h2 style="text-align:left;">What can we say? Falling Waters Landscape knows how to win a photo contest. This entry in our Hardscape &amp; Details category epitomized our judges' ideal of a lively, embracing, inviting space. The color scheme is breathtaking, the planting and hardscaping complement each other perfectly, and each element absolutely flows into the next. (See what we did there?) Oh, and there's a fire pit, by the way. We don't just want to stay a day or evening in this poolside utopia; can we just move in?</h2>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      <div class="col-sm-12 lfx" id="learnirrig" style="overflow:hidden !important;z-index:2;padding:0px;display:none">
+       <div class="col-sm-12 padno" id="second">
+          <div  class="cadplan1 pudgec softsha p100 ptoplg">
+            <div class="animbigVid2 animated" style="">
+              <div class="winners-size">            
+                <img src="/images/elements/photo-contest-2019/winners/Pool-Room-Profile-sunset-1800.jpg" class="shadowimg imgwin">
+              </div>
+            </div>
+          <div class="animbigVid2 animated" style="animation-delay: 0.5s"> 
+            <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:70px;position:relative;">
+              <img src="/images/elements/photo-contest-2018/bluehex-second-01.svg" class="svgplace">
+              <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Arcadia Studio</span><br>
+              <h2 style="text-align:left;">Kudos to Arcadia Studio for capturing this gorgeous seating and transitional area in the glow of a spectacular California sunset. The contrast of the vibrant purple flowers in the background with the warm gleam off the furniture and side of the house gave us goosebumps. But the real prize is the seamless marriage of planting and paving into a scene that's modern but still feels natural.</h2>
+            </div>
+          </div>
+        </div>
+      </div><!-- action items -->
+          
+      </div>
+      <div class="col-sm-12" id="learndetails" style="z-index:2;padding:0px;display:none">
+      <div class="col-sm-12 padno" id="third">
+          <div  class="cadplan3 pudgec softsha p100 ptoplg">
+            <div class="animbigVid3 animated" style="">
+              <div class="winners-size">          
+                <img src="/images/elements/photo-contest-2019/winners/1915TahunaTerrace09Entry-1800.jpg" class="shadowimg imgwin">
+              </div>
+            </div>
+          <div class="animbigVid3 animated" style="animation-delay: 0.5s">
+            <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:70px;position:relative;">
+              <img src="/images/elements/photo-contest-2018/greenhex-third-01.svg" class="svgplace">  
+              <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">V3 STUDIO BERZUNZA</span><br>
+              <h2 style="text-align:left;">Cheers to the power of suggestion! The angle of this brilliant shot frames a zero-edge pool overlooking a Southern California sunset as the light at the end of the tunnel. But what a tunnel! The lush planting area, beautiful planter wall, understated succulent garden, and gleaming tiling with incorporated lighting drew us right in.</h2>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12" id="learnfxcad" style="z-index:2;padding:0px;display:none;">
+      <div class="col-sm-12 padno" id="peopleschoice">
+        <div  class="cadplan2 pudgec softsha p100 ptoplg">
+          <div class="animbigVid3 animated" style="">
+            <div class="winners-size">           
+              <img src="/images/elements/photo-contest-2019/winners/COMMUNITY-OVERHEAD.jpg" class="shadowimg imgwin">
+            </div>
+          </div>
+        <div class="animbigVid3 animated" style="animation-delay: 0.5s"> 
+          <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:70px;position:relative;">
+            <img src="/images/elements/photo-contest-2018/people-choice.png" class="svgplace"> 
+            <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Ten Over Studio</span><br>
+            <h2 style="text-align:left;">Congrats to Ten Over Studio for garnering the top number of votes for this gem of an aerial shot. The juxtaposition of a veritable tide of greenery, curved walkways, and kidney bean pool with the stark rooflines makes this site an exercise in attractive dynamics. Plus it's always fun to see people enjoying a site, providing a bit of movement and engagement.</h2>
+          </div>
+        </div>
+      </div>
+        </div>
+      
+<!--   <div class="col-sm-12 padno" id="first">
+    <div  class="cadplan-fall pudgec softsha p100 ">
+      <div class="animbigVid animated" style="opacity:0;">
+        <div class="winners-size">            
+          <img src="/images/elements/photo-contest-2019/winners/1917Edinburgh44of53-1800.jpg" class=" shadowimg imgwin">
+        </div>
+      </div>
+    <div class="animbigVid animated" style="opacity:0;animation-delay: 0.5s"> 
+      <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;position:relative;">
+        <img src="/images/elements/photo-contest-2018/yellowhex-first-01.svg" class="svgplace">
+        <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Falling Waters Landscape</span><br>
+        <h2 style="text-align:left;">What can we say? Falling Waters Landscape knows how to win a photo contest. This entry in our Hardscape &amp; Details category epitomized our judges' ideal of a lively, embracing, inviting space. The color scheme is breathtaking, the planting and hardscaping complement each other perfectly, and each element absolutely flows into the next. (See what we did there?) Oh, and there's a fire pit, by the way. We don't just want to stay a day or evening in this poolside utopia; can we just move in?</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="col-sm-12 padno" id="second">
+    <div  class="cadplan1 pudgec softsha p100 ">
+      <div class="animbigVid2 animated" style="opacity:0;">
+        <div class="winners-size">            
+          <img src="/images/elements/photo-contest-2019/winners/Pool-Room-Profile-sunset-1800.jpg" class="shadowimg imgwin">
+        </div>
+      </div>
+    <div class="animbigVid2 animated" style="opacity:0;animation-delay: 0.5s"> 
+      <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;position:relative;">
+        <img src="/images/elements/photo-contest-2018/bluehex-second-01.svg" class="svgplace">
+        <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Arcadia Studio</span><br>
+        <h2 style="text-align:left;">Kudos to Arcadia Studio for capturing this gorgeous seating and transitional area in the glow of a spectacular California sunset. The contrast of the vibrant purple flowers in the background with the warm gleam off the furniture and side of the house gave us goosebumps. But the real prize is the seamless marriage of planting and paving into a scene that's modern but still feels natural.</h2>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-sm-12 padno" id="third">
+    <div  class="cadplan3 pudgec softsha p100 ">
+      <div class="animbigVid3 animated" style="opacity:0;">
+        <div class="winners-size">          
+          <img src="/images/elements/photo-contest-2019/winners/1915TahunaTerrace09Entry-1800.jpg" class="shadowimg imgwin">
+        </div>
+      </div>
+    <div class="animbigVid3 animated" style="opacity:0;animation-delay: 0.5s"> 
+      <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;position:relative;">
+        <img src="/images/elements/photo-contest-2018/greenhex-third-01.svg" class="svgplace">  
+        <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">V3 STUDIO BERZUNZA</span><br>
+        <h2 style="text-align:left;">Cheers to the power of suggestion! The angle of this brilliant shot frames a zero-edge pool overlooking a Southern California sunset as the light at the end of the tunnel. But what a tunnel! The lush planting area, beautiful planter wall, understated succulent garden, and gleaming tiling with incorporated lighting drew us right in.</h2>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-sm-12 padno" id="peopleschoice">
+    <div  class="cadplan2 pudgec softsha p100 ">
+      <div class="animbigVid3 animated" style="opacity:0;">
+        <div class="winners-size">           
+          <img src="/images/elements/photo-contest-2019/winners/COMMUNITY-OVERHEAD.jpg" class="shadowimg imgwin">
+        </div>
+      </div>
+    <div class="animbigVid3 animated" style="opacity:0;animation-delay: 0.5s"> 
+      <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;position:relative;">
+        <img src="/images/elements/photo-contest-2018/people-choice.png" class="svgplace"> 
+        <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Ten Over Studio</span><br>
+        <h2 style="text-align:left;">Congrats to Ten Over Studio for garnering the top number of votes for this gem of an aerial shot. The juxtaposition of a veritable tide of greenery, curved walkways, and kidney bean pool with the stark rooflines makes this site an exercise in attractive dynamics. Plus it's always fun to see people enjoying a site, providing a bit of movement and engagement.</h2>
+      </div>
+    </div>
+  </div> -->
+
+
+
+</div>
+</div>
+
+
+
+
+<style>
+
+.imageGrid h2 {
+  color: #333;
+} 
+
+.imageGrid {
+  line-height: 0;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+}
+.imageGrid .tile {
+  
+    -webkit-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    -moz-box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+    box-shadow: -8px 10px 15px -8px rgba(0,0,0,0.29);
+  
+  width:100%;
+  min-height:23em;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  margin:5px;
+  color:#fff;
+  /*font-family:"Verdana",sans-serif;*/
+/*  text-shadow: 2px 2px 2px #000;*/
+/*  cursor: pointer; 
+  cursor: hand;*/
+}
+.content p, .content h2 {text-align:left;color:#fff;}
+.imageGrid .tile:before {
+  content: '';
+/*  background-color: rgba(15,15,15,0.4);*/
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.imageGrid .tile:hover:before {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.8) 80%, rgba(0, 0, 0, 1) 100%);
+}
+
+.imageGrid .tile .textWrapper {
+/*  text-align: center;
+  vertical-align: middle;*/
+  width: 80%;
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: .75em;
+}
+
+.imageGrid .tile .textWrapper .content {
+  visibility:hidden;
+}
+
+.imageGrid .tile:hover .textWrapper .content {
+  visibility:visible;
+}
+
+.imageGrid .tile:hover .textWrapper .content h2 {
+  margin: 0;
+}
+.tileout {width:33.1%;display:inline-block;max-height:20em;margin-top:60px;}
+@media (max-width: 1308px) {
+  .imageGrid .tileout {
+    width: 49%;
+    margin:0px;
+  }
+}
+ 
+@media (max-width: 700px) {
+  .imageGrid .tileout {
+    width: 100%;
+    margin:0px;
+    margin-top:30px;
+  }
+  
+}
+.trophyimage {max-height:180px;}
+.trophywrap {}
+.trophycaption {}
+.cameracontest {background:url(images/elements/photo-contest-2018/camera-contest.jpg);background-position:right -160px;background-repeat:no-repeat;background-color:#f2f2f2;}
+@media (max-width: 1500px) {
+  .cameracontest {background:#f2f2f2 !important;background-position:center center;background-repeat:no-repeat;background-color:#f2f2f2;}
+}
+@media (max-width: 1150px) {
+  .cameracontest {padding-top:30px !important;}
+}
+/*.al {padding:10px !important;}*/
+
+    /* gallery specific magnific styles */ 
+    .mfp-content { width:auto!important; /**//*max-width:1600px!important;*/}
+    .gallerylink:focus {outline:0;}
+    .gallerylink img {margin:0 auto;}
+    .mfp-figure:after {
+           box-shadow: 0 0 0px rgba(0,0,0,.6)!important; 
+     background: none!important; 
+    }
+    /*figure img {width:100%!important;
+      height:auto!important;
+        width: 100%!important; max-width:1400px !important; height:auto;
+    }*/
+    /* padding-bottom and top for image */
+    .mfp-no-margins img.mfp-img {
+        padding: 0;
+    }
+    /* position of shadow behind the image */
+    .mfp-no-margins .mfp-figure:after {
+        top: 0;
+        bottom: 0;
+    }
+    /* padding for main container */
+    .mfp-no-margins .mfp-container {
+        padding: 0;
+    }
+    /*  figure { height:auto; }*/
+    figcaption { display:none; } 
+    figure {
+      width:90%!important;
+      height:auto!important;
+      margin:0 auto!important;
+    }
+    img.mfp-img {
+      width:auto;
+      height:auto!important;
+    }
+    /* end magnific */
+
+.bluephoto {
+    background: url(/images/elements/photo-contest-2018/icons/envelope-ch-01.svg) fixed;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 15% 30%;
+    background-color:#f2f2f2;
+}
+
+.collagesubmission {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.37) 100%), url(/images/elements/photo-contest-2018/collage-submission.jpg) fixed;
+    background-repeat: repeat;
+    background-size:cover;
+}
+.content h2 {margin-bottom:20px;}
+h2.al {
+/*    margin-bottom: 60px;*/
+    text-align: center;
+    padding-left: 5px;
+    margin-top:0px;
+        overflow: hidden;
+}
+
+ {
+    margin-top: 50px;
+}
+.cadimg {max-width:100%;}
+.fallingasleep {margin-top:100px;}
+.title-participant-height {max-width:560px;}
+.marv {margin-top:20px;}
+.pbox50 {margin-top:100px;}
+@media (min-width: 1150px) {
+  .pbox50 {padding:70px !important;}
+}
+
+.activebub {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.3) !important;
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.3) !important;
+    transition: all 200ms ease-in;
+    transform: scale(1.3) !important;
+    cursor: pointer;
+}
+
+.hoverbub {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+</style>
+
+
+
+
+<div class="row" id="vote">
+  <div class="col-sm-12 padno lfx">
+    <div class="pudgec cadplan1 softsha p100 mobilenopad" style="overflow:hidden;background-size:auto;background-repeat: repeat">
+      <div class="col-sm-12 padno" style="margin-bottom:50px;">
+        <div class="" style="max-width:700px;margin-left:auto;margin-right:auto;overflow:hidden;">
+          <div class="centerish p30 boxxy softsha" style="margin-top:50px;">
+            <h1 style="text-align:center">Category Winners</h1> 
+            <h2 style="text-align:left;">We created these distinct categories to encourage a variety of sites and artistic approaches, and our pool of entries delivered the goods. Take a look at our picks for the top images in each category.</h2>
+<!--             <h2 style="text-align:left">By category:</h2>
+
+                    <a class="btn pillsblue" href="#planting"><img src="/images/icons/solid-blue-small/planting-symbols.svg" style="width:21px;height:21px;">&nbsp;<span>Planting</span></a>
+                    <a class="btn pillsblue" href="#irrig"><img src="/images/icons/solid-blue-small/irrigation.svg" style="width:21px;height:21px;">&nbsp;<span>Irrigation</span></a>
+                    <a class="btn pillsblue" href="#hard"><img src="/images/icons/solid-blue/site.svg" style="width:21px;height:21px;">&nbsp;<span>Hardscape &amp; Details</span></a>
+                    <a class="btn pillsblue" href="#3D"><img src="/images/icons/solid-blue-small/sketchup.svg" style="width:21px;height:21px;">&nbsp;<span>3D</span></a>
+                    <a class="btn pillsblue" href="#aerial"><img src="/images/icons/solid-blue/details.svg" style="width:21px;height:21px;">&nbsp;<span>Aerial</span></a>
+                    <a class="btn pillsblue" href="#before"><img src="/images/icons/solid-blue-small/cal.svg" style="width:21px;height:21px;">&nbsp;<span>Before &amp; After</span></a>
+
+          </div> -->
+        </div>
+      </div>
+
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="planting" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">Planting</h1>
+          <img src="/images/elements/photo-contest-2019/winners/LDI_FX_PLANTING_2019-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-6 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Land Design, Inc.</span><br>
+                  <h2 style="text-align:left;">Color, color, and more color. From the assortment of plants to the absolutely spot-on combination of light and shadow, this woodsy scene just wowed us. "This project utilized a planting palette that offered 4-season interest. In the harsh Montana winters, it created microclimates to help support and sustain diverse species," designer Megan Terry told us. Now that's a climate we can get used to.</h2>
+                </div>
+              </div>
+              <div class="col-md-6  padno" style="padding-bottom:20px;">
+                <img src="/images/elements/photo-contest-2019/winners/Land-FX-Landscape-1200.jpg" class="shadowimg cadimg">
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other Planting submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">
+                    
+                  {module photo contest plant - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="irrig" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">Irrigation</h1>
+          <img src="/images/elements/photo-contest-2019/winners/zanz-lake-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-12 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Attinger Landscape Architecture</span><br>
+                  <h2 style="text-align:left;">What better element of an irrigation category entry than a tranquil, reflective body of water? According to designer Anne Attinger, "The lake in the foreground filters sediments from the local canal/agricultural water and supplies the irrigation for the entire landscape at this private estate in Coachella." Our hats are off to this intelligent conservatory measure in a region where water is an all-out commodity. Oh, and the site is a knockout too.</h2>
+                </div>
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other Irrigation submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">
+                    
+                  {module photo contest irrig - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="hard" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">Hardscape &amp; Details</h1>
+          <img src="/images/elements/photo-contest-2019/winners/DSC08530-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-6 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">V3 STUDIO BERZUNZA</span><br>
+                  <h2 style="text-align:left;">Coalescing modernity and comfort is no small task, but this striking seating area looks as cozy as it does elegant. The inlaid wood and glass elements backed by a line of conifers form a lovely frame for a loungey zone where we could easily imagine gathering for a fun party with an entire circle of friends – or just curl up and take a well-deserved couch nap under the stars. The choice of a nighttime shot was a good one for this swanky site.</h2>
+                </div>
+              </div>
+              <div class="col-md-6  padno" style="padding-bottom:20px;">
+                <img src="/images/elements/photo-contest-2019/winners/v3-private-plan-1200.jpg" class="shadowimg cadimg">
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other Hardscape &amp; Details submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">
+                    
+                  {module photo contest hardscape - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="3D" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">3D</h1>
+          <img src="/images/elements/photo-contest-2019/winners/BVI-RETREAT---RENDERING-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-6 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Mills Design Group</span><br>
+                  <h2 style="text-align:left;">We had to look twice at this photorealistic image to make sure we weren't looking at an actual photo of this lush, tropical pool paradise resembling a verdant Mayan pyramid. Simply put, it's a great rendering of a truly artistic and impressive design. Time to go trekking!</h2>
+                </div>
+              </div>
+              <div class="col-md-6  padno" style="padding-bottom:20px;">
+                <img src="/images/elements/photo-contest-2019/winners/BVI-RETREAT-1200.jpg" class="shadowimg cadimg">
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other 3D submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">
+                    
+                  {module photo contest 3d - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="aerial" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">Aerial</h1>
+          <img src="/images/elements/photo-contest-2019/winners/FW-1917Edinburgh(21of53)-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-6 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Falling Waters Landscape</span><br>
+                  <h2 style="text-align:left;">Don't you just want to cannonball into this pool? We certainly did! (Well, maybe not from this height.) Seriously, though, the shot comes from the ideal vantage point to capture the site's clean and harmonious balance between planting, hardscaping, water, and wall. Utterly electrifying.</h2>
+                </div>
+              </div>
+              <div class="col-md-6  padno" style="padding-bottom:20px;">
+                <img src="/images/elements/photo-contest-2019/winners/cadplan-fallingwater.jpg" class="shadowimg cadimg">
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other 3D submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">                    
+                  {module photo contest aerial - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="col-sm-12 padno lfx">
+    <div class="" style="max-width:1400px;padding-left:15px;margin-left:auto;margin-right:auto;">       
+      <div class="boxxy pbox50 " id="before" style="overflow:hidden;">
+        <h1 class="newh1 p15left" style="text-align:left;float:left">Before &amp; After</h1>
+          <img src="/images/elements/photo-contest-2019/winners/zracna-1600.jpg" class="shadowimg imgwin">
+            <div class="col-sm-12 marv padno">
+              <div class="col-md-6 ">
+                <div class="boxxy" style="max-width:900px;margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+                  <span style="font-size: 42px !important; font-family: 'Ubuntu', sans-serif !important; font-weight: 500!important;">Studio KAPPO</span><br>
+                  <h2 style="text-align:left;">This design transformed the edge of a waterfront property from a concrete nightmare into a smooth, inviting transition to the briny that all but begs us to go for a swim. The incorporation of boulders, terraces, and plants preserved the natural appearance this unique setting deserves.</h2>
+                </div>
+              </div>
+              <div class="col-md-6  padno" style="padding-bottom:20px;">
+                <img src="/images/elements/photo-contest-2019/winners/cadplan-zracna-1200.jpg" class="shadowimg cadimg">
+              </div>
+            </div>
+          <div class="col-sm-12 padno"> 
+            <div style="max-width:1300px;margin-left:auto;margin-right:auto;margin-top:100px;">
+              <center><h1 class="subhead">See the other Before & After submissions</h1></center>
+              <div class="col-sm-12">
+                <center id="beforeslides">                    
+                  {module photo contest before - NorrCompetition Grid }
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="row lfx p100 trianglebg" style="margin-top:10px;position:relative;padding-bottom:150px !important;">
+  <div class="boxxy" style="margin-left:auto;margin-right:auto;max-width:1100px;">
+    <h1 style="text-align:center">Thank you to all participants!</h1>
+    <h2  style="text-align:left;margin-bottom:30px;padding:36px;">Our sincere thanks go out to all the entrants who helped us put on another superb contest by showing off their hard work. It warms our hearts to see all the great things our clients can do with our software, and we're honored to have played a role in the design of all these spectacular sites. Cheers to all who entered:</h2>
+    <div style="overflow:hidden">
+    <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>American Landscape – Jacqueline Jay</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Anderson Land Planning</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Attinger Landscape Architecture</h2>
+    </div>
+    </div>
+    <div class="col-sm-12">  
+    <div class="col-sm-4 p20">
+      <h2>Beauté Jardin</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Cadence</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Civil Site Design Group</h2>
+    </div> 
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Core Landscape</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Damon Farber</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Delta K Consulting Limited</h2>
+    </div>  
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Falling Waters Landscape</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Fortini Landscapes</h2>
+    </div>
+    <div class="col-sm-4 p20">
+      <h2>Halff</h2>
+    </div>     
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Jerry Pate Design</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>JPBLA, Inc.</h2>
+    </div>     
+    <div class="col-sm-4 p20">
+      <h2>Knaak Design Group</h2>
+    </div> 
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Land Design, Inc.</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Landscape by Design</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Lose Design</h2>
+    </div> 
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>LSL Alpine Enterprise</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Mills Design Group</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>O2 Planning + Design</h2>
+    </div>    
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Owens Environmental Design</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>PlaceMaker Design Studio, LLC</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Stack Rock Group</h2>
+    </div>     
+  </div>
+      <div class="col-sm-12">
+    <div class="col-sm-4 p20">
+      <h2>Studio KAPPO</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Ten Over Studio</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>The LandArt Design Group, Inc.</h2>
+    </div>    
+  </div>
+      <div class="col-sm-12"> 
+    <div class="col-sm-4 p20">
+      <h2>TDK Associates</h2>
+    </div> 
+    <div class="col-sm-4 p20">
+      <h2>Topophyla</h2>
+    </div> 
+        <div class="col-sm-4 p20">
+      <h2>V3 STUDIO BERZUNZA</h2>
+    </div> 
+  </div>
+
+    </div>          
+  </div>
+
+  <p style="position:absolute;bottom:15px;right:15px;">Disclaimer: Photos on this page are copyrighted as noted. Any reproduction without their permission is prohibited.</p>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+<script src="/js/magnific/jquery.magnific-popup.min.js" async=""></script>
+<!-- Owl Stylesheets -->
+<link rel="stylesheet" href="/js/owlcarousel2/assets/owl.carousel.min.css">
+<!-- <link rel="stylesheet" href="/js/owlcarousel2/assets/owl.theme.default.min.css"> -->
+<script src="/js/owlcarousel2/owl.carousel.js"></script>
+<link href="/css/owl.carousel.css" rel="stylesheet">
+<link href="/css/owl.theme.css" rel="stylesheet">
+<script>
+jQuery(document).ready(function() {
+  
+    jQuery(".rotatelfx").owlCarousel({
+      lazyLoad: true,
+      loop: false,
+      rewind:true,
+      nav: true,
+      dots: true,
+      autoHeight: true,
+      //items: 1,
+      dotsEach: true,
+      pagination: true,
+      //scrollPerPage : true,
+      slideSpeed: 3000,
+      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    responsive:{
+        0:{
+            items:1,
+            //slideBy: 1
+        },
+        1050:{
+            items:2,
+            //slideBy: 2
+            mouseDrag: false,
+            pullDrag:false
+        }
+    }
+
+
+
+
+    });
+
+
+
+});
+</script>
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+        jQuery( document ).ready(function() {
+ 
+            jQuery('.bigimglink').magnificPopup({
+                type: 'image',
+                //gallery:{ enabled:true },
+                closeOnContentClick: true,
+                closeBtnInside: false,
+                fixedContentPos: true,
+                preloader: false,
+                mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+                image: {
+                    verticalFit: true
+                },
+                // zoom: {
+                //     enabled: true,
+                //     duration: 300 // don't foget to change the duration also in CSS
+                // }
+            });
+        });
+
+        jQuery( document ).ready(function() {
+ 
+            jQuery('.imglink2').magnificPopup({
+                type: 'image',
+                //gallery:{ enabled:true },
+                closeOnContentClick: true,
+                closeBtnInside: false,
+                fixedContentPos: true,
+                preloader: false,
+                mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+                image: {
+                    verticalFit: true
+                },
+                // zoom: {
+                //     enabled: true,
+                //     duration: 300 // don't foget to change the duration also in CSS
+                // }
+            });
+        });
+
+ 
+</script>
+<!-- testimonials and sketchup rotators -->
+<!-- 
+<script type="text/javascript" src="/js/scroll-magic/ScrollMagic.min.js"></script>
+<script type="text/javascript" src="/js/scroll-magic/debug.addIndicators.min.js"></script>
+<script>
+
+
+    function animVidBig(e) {
+      if (e.type == "leave") {
+        jQuery( ".animbigVid" ).attr("class", "animbigVid animated fadeOut" );
+      }
+      else if (e.type == "enter") {
+        jQuery( ".animbigVid" ).attr("class", "animbigVid animated fadeIn" );
+      }      
+    }
+
+    function animVidBig2(e) {
+      if (e.type == "leave") {
+        jQuery( ".animbigVid2" ).attr("class", "animbigVid2 animated fadeOut" );
+      }
+      else if (e.type == "enter") {
+        jQuery( ".animbigVid2" ).attr("class", "animbigVid2 animated fadeIn" );
+      }      
+    }
+
+    function animVidBig3(e) {
+      if (e.type == "leave") {
+        jQuery( ".animbigVid3" ).attr("class", "animbigVid3 animated fadeOut" );
+      }
+      else if (e.type == "enter") {
+        jQuery( ".animbigVid3" ).attr("class", "animbigVid3 animated fadeIn" );
+      }      
+    }
+
+    function animVidBig4(e) {
+      if (e.type == "leave") {
+        jQuery( ".animbigVid4" ).attr("class", "animbigVid4 animated fadeOut" );
+      }
+      else if (e.type == "enter") {
+        jQuery( ".animbigVid4" ).attr("class", "animbigVid4 animated fadeIn" );
+      }      
+    }
+
+    function animVidBig5(e) {
+      if (e.type == "leave") {
+        jQuery( ".animbigVid5" ).attr("class", "animbigVid5 animated fadeOut" );
+      }
+      else if (e.type == "enter") {
+        jQuery( ".animbigVid5" ).attr("class", "animbigVid5 animated fadeIn" );
+      }      
+    }
+
+    function imBlue(e) {
+      // console.log(e.type);
+      // if (e.type == "leave") {
+      //   jQuery( ".imBlue" ).removeClass("bluegrad-2" );
+      // }
+      if (e.type == "enter") {
+        jQuery( ".imBlue" ).addClass("opacout");
+        jQuery( ".shadowimage" ).addClass("glowimage");
+        jQuery( ".curvrow" ).addClass("opacadded");
+        // jQuery( ".progress2" ).addClass("progress-blue");
+      }      
+    }
+
+
+  jQuery(function () { // wait for document ready
+    // init controller
+    var controller = new ScrollMagic.Controller();
+
+
+    // build scene 2
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 400})
+      .on("leave", animVidBig)
+      .on("enter", animVidBig) 
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+    // build scene 3
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 1500})
+      .on("leave", animVidBig2)
+      .on("enter", animVidBig2)      
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+    // build scene 4
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 2800})
+      .on("leave", animVidBig3)
+      .on("enter", animVidBig3)      
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+    // build scene 5
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 4000})
+      .on("leave", animVidBig4)
+      .on("enter", animVidBig4)      
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+    // build scene 6
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 5400})
+      .on("leave", animVidBig5)
+      .on("enter", animVidBig5)      
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+    // build scene 3
+    new ScrollMagic.Scene({triggerElement: "#trigger", offset: 3400})
+      .on("leave", imBlue)
+      .on("enter", imBlue)      
+      //.addIndicators() // add indicators (requires plugin)
+      .addTo(controller);
+
+  });
+</script>
+ -->
+
+
+
+<script>
+  jQuery(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
+      var target = jQuery.attr(this, 'href');
+    setTimeout( function() {
+      jQuery('html, body').animate({
+          scrollTop: jQuery(target).offset().top
+      }, 1200);
+    } , 300 );
+  });
+
+
+function peetShow () {
+  jQuery('#learnplant').css("display", "block"); 
+  jQuery('#learnirrig').css("display", "none");
+  jQuery('#learndetails').css("display", "none");
+  jQuery('#learnfxcad').css("display", "none");
+  jQuery('[id^="bubimage"]').removeClass("activebub"); 
+  jQuery('#bubimage1').addClass("activebub"); 
+
+}
+
+function deetShow () {
+  jQuery('#learndetails').css("display", "block");
+  jQuery('#learnirrig').css("display", "none");
+  jQuery('#learnplant').css("display", "none");
+  jQuery('#learnfxcad').css("display", "none");
+  jQuery('[id^="bubimage"]').removeClass("activebub"); 
+  jQuery('#bubimage2').addClass("activebub"); 
+
+}
+
+function yeetShow () {
+  jQuery('#learnirrig').css("display", "block");
+  jQuery('#learndetails').css("display", "none");
+  jQuery('#learnplant').css("display", "none");
+  jQuery('#learnfxcad').css("display", "none");
+  jQuery('[id^="bubimage"]').removeClass("activebub"); 
+  jQuery('#bubimage3').addClass("activebub"); 
+
+}
+
+function feetShow () {
+  jQuery('#learnfxcad').css("display", "block");
+  jQuery('#learnirrig').css("display", "none");
+  jQuery('#learndetails').css("display", "none");
+  jQuery('#learnplant').css("display", "none");
+
+  jQuery('[id^="bubimage"]').removeClass("activebub"); 
+  jQuery('#bubimage4').addClass("activebub"); 
+
+}
+
+</script>
